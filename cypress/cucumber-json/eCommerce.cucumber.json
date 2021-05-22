@@ -28,7 +28,7 @@
             "name": "I open the ecommerce application url",
             "result": {
               "status": "passed",
-              "duration": 390000000
+              "duration": 861000000
             }
           },
           {
@@ -58,7 +58,7 @@
             "name": "i add item to cart",
             "result": {
               "status": "passed",
-              "duration": 698000000
+              "duration": 1162000000
             }
           },
           {
@@ -68,7 +68,7 @@
             "name": "validate the total price",
             "result": {
               "status": "passed",
-              "duration": 180000000
+              "duration": 397000000
             }
           },
           {
@@ -78,7 +78,7 @@
             "name": "select the country dropdown",
             "result": {
               "status": "passed",
-              "duration": 5554000000
+              "duration": 5697000000
             }
           },
           {
@@ -88,7 +88,7 @@
             "name": "click on the purchese and verify thankyou message",
             "result": {
               "status": "passed",
-              "duration": 408000000
+              "duration": 646000000
             }
           }
         ]
