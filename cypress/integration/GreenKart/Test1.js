@@ -1,5 +1,5 @@
 /// <reference types="Cypress" />
-
+// this is my first cypress program
 describe('My First Test', function() {
     it('launch rahul setty site', function(){
         cy.visit("https://rahulshettyacademy.com/seleniumPractise/#/")
