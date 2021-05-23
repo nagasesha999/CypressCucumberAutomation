@@ -20,20 +20,25 @@ Given('I open the ecommerce application url', () => {
   
 //When i add item to cart
 When('i add item to cart', (dataTable)=>{
-    var data= dataTable.raw()
+  //   var data= dataTable.raw()
 
-    cy.log('rows : ' + dataTable.rows());
-  cy.log('raw : ' + dataTable.raw());
+  //   cy.log('rows : ' + dataTable.rows());
+  // cy.log('raw : ' + dataTable.raw());
+
+
+  
     cy.get('[class="nav-item"]:nth-child(2) > a').click()
     cy.get('[class="nav-item"]:nth-child(2) > a').as('shopLink')
     cy.get('h1.my-4').should('have.text','Shop Name')
     cy.get('h4.card-title >a').each(($el, index, $list) => {
-     
-          if($el.text().includes(data[index])){
-            cy.log($el.text())
-            cy.get('div.card-footer').eq(index).click()
-          }
-      })
+      dataTable.hashes().forEach(element => {
+        if($el.text().includes(element.phones)){
+          cy.log($el.text())
+          cy.get('div.card-footer').eq(index).click()
+        }
+    })
+      });
+         
 })
 
 //Then validate the total price

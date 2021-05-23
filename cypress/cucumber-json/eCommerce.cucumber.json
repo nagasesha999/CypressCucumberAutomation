@@ -11,12 +11,12 @@
       {
         "id": "end-to-end-ecommerce-application-validation;ecommerce-products-delivery",
         "keyword": "Scenario",
-        "line": 18,
+        "line": 19,
         "name": "Ecommerce products delivery",
         "tags": [
           {
             "name": "@Test",
-            "line": 17
+            "line": 18
           }
         ],
         "type": "scenario",
@@ -24,17 +24,22 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 19,
+            "line": 20,
             "name": "I open the ecommerce application url",
             "result": {
               "status": "passed",
-              "duration": 861000000
+              "duration": 436000000
             }
           },
           {
             "arguments": [
               {
                 "rows": [
+                  {
+                    "cells": [
+                      "phones"
+                    ]
+                  },
                   {
                     "cells": [
                       "iphone X"
@@ -54,41 +59,41 @@
               }
             ],
             "keyword": "When ",
-            "line": 20,
+            "line": 21,
             "name": "i add item to cart",
             "result": {
               "status": "passed",
-              "duration": 1162000000
+              "duration": 1346000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 24,
+            "line": 26,
             "name": "validate the total price",
             "result": {
               "status": "passed",
-              "duration": 397000000
+              "duration": 373000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 25,
+            "line": 27,
             "name": "select the country dropdown",
             "result": {
               "status": "passed",
-              "duration": 5697000000
+              "duration": 5745000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 26,
+            "line": 28,
             "name": "click on the purchese and verify thankyou message",
             "result": {
               "status": "passed",
-              "duration": 646000000
+              "duration": 640000000
             }
           }
         ]
