@@ -6,6 +6,7 @@ Feature: End to end ecommerce application validation
     Scenario: Ecommerce products delivery
     Given I open the ecommerce application url
     When i add item to cart
+    | phones   |
     |iphone X  |
     |Blackberry|
     |Nokia Edge|
@@ -18,6 +19,7 @@ Feature: End to end ecommerce application validation
     Scenario: Ecommerce products delivery
     Given I open the ecommerce application url
     When i add item to cart
+    | phones   |
     |iphone X  |
     |Blackberry|
     |Nokia Edge|
