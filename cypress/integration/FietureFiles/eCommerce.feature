@@ -2,7 +2,7 @@ Feature: End to end ecommerce application validation
 
     Feature Description
 
-    @Test
+    @Test1
     Scenario: Ecommerce products delivery
     Given I open the ecommerce application url
     When i add item to cart
@@ -15,7 +15,7 @@ Feature: End to end ecommerce application validation
     And click on the purchese and verify thankyou message
 
 
-     @Test
+     @Test1
     Scenario: Ecommerce products delivery
     Given I open the ecommerce application url
     When i add item to cart
