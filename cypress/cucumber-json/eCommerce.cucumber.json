@@ -15,7 +15,7 @@
         "name": "Ecommerce products delivery",
         "tags": [
           {
-            "name": "@Test",
+            "name": "@Test1",
             "line": 18
           }
         ],
@@ -28,7 +28,7 @@
             "name": "I open the ecommerce application url",
             "result": {
               "status": "passed",
-              "duration": 436000000
+              "duration": 465000000
             }
           },
           {
@@ -63,7 +63,7 @@
             "name": "i add item to cart",
             "result": {
               "status": "passed",
-              "duration": 1346000000
+              "duration": 1085000000
             }
           },
           {
@@ -73,7 +73,7 @@
             "name": "validate the total price",
             "result": {
               "status": "passed",
-              "duration": 373000000
+              "duration": 187000000
             }
           },
           {
@@ -83,7 +83,7 @@
             "name": "select the country dropdown",
             "result": {
               "status": "passed",
-              "duration": 5745000000
+              "duration": 5463000000
             }
           },
           {
@@ -93,7 +93,7 @@
             "name": "click on the purchese and verify thankyou message",
             "result": {
               "status": "passed",
-              "duration": 640000000
+              "duration": 347000000
             }
           }
         ]

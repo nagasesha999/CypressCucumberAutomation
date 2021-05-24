@@ -1,7 +1,7 @@
 Feature: Feature name GreenKart
 
     Feature Description
-
+@Greenkart
 Scenario: Scenario name greenkart
 # Given I open the ecommerce application url
 Given I open the geenkart application 'https://rahulshettyacademy.com/seleniumPractise/#/'
